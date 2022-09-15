@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Trunfo - Game Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="trunfo">
+        <div id="container">
+            <img src="logo-Marvell.png">
+            <h1>ESCOLHA, COMPARE E VENÇA!</h1>
+            <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+            <div id="flex">
+                <div id="caixa1">
+                    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+                </div>
+                <div id="caixa2">
+                    <img src="https://imagensemoldes.com.br/wp-content/uploads/2021/03/Figura-VS-PNG.png" alt="">
+                    <button type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
+                </div>
+                <div id="caixa3">
+                    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+                </div>
+            </div>
+
+            <h2 id="resultado"></h2>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

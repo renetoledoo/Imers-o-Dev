@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+  margin: 0;
+padding: 0;
+
+}
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://cdn.cbeditz.com/cbeditz/large/11624180288j4jptbof2ka10flgsot4wlf0sipbyq04jqw4xqq3szl2yptyiygyrgalhpiznbac4ht9w2beixowl7quexcrddlyx77urnuuhuke.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+ .textoPrefix{
+  text-align: start;
+  margin-left: 1.5%;
+  font-size: 1.5rem;
+  font-weight: 600;
+ } 
+
+ #filmes{
+  margin-bottom: 4%;
+ }
+#filmes img{
+  transition: transform .5s ease;
+  margin-left: 10px;
+}  
+#filmes img:hover{
+  transform: scale(1.1);
+} 
+
+  
+img {
+  max-height: 250px;
+}
+
+input{
+  background-color: whitesmoke;
+  color: rgb(73, 73, 73);
+  border: none;
+  width: 500px;
+  height: 42px;
+  margin-top: 2%;
+  padding-left: 10px;
+}
+input::placeholder{
+  color: rgb(73, 73, 73);
+}
+
+button{
+  background-color:#DA1E26;
+  border: none;
+  width: 150px;
+  height: 42px;
+  text-align: center;
+  color: white;
+}
+
+#image{
+  margin-top: 20px;
+}
+
+#image img{
+  margin-left: 10px;
+}
+
+h2{
+  margin-top: 5px;
+}
+

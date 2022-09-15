@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+    background-image: url(meuBackGround.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+  
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+  }
+
+  #novoTime{
+    margin: 20px;
+  }
+  #novoTime p{
+    margin: 5px;
+  }
+  
+  #novoTime input{
+    padding:10px;
+  border:0;
+  background: #e0e0e0;
+  box-shadow:  1px 3px 5px #bebebe,
+               -1px -3px 5px #ffffff;
+  border-radius:10px;
+  }
+
+  #logo{
+    margin-top: 20px;
+  }
+  #logo img{
+    width: 100px;
+  }
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  button{
+    background-color: #bd2a47; /* Green */
+  border: none;
+  color: white;
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+  button:hover{
+    background-color: #bc0b2f; /* Green */
+  }
+  
+  table {
+    border: 2px solid white;
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    color: white;
+  }
+  img {
+    width: 45px;
+  }
+  th,
+  tr,
+  td {
+    border: solid 1px white;
+    color: white;
+    padding: 6px;
+  }
+  
+  footer{
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(225, 225, 225);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  }
